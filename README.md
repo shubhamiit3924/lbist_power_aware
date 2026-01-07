@@ -85,20 +85,19 @@ The LBIST system consists of the following major blocks:
 
 ## 📂 Repository Structure
 
-├── lfsr.vhd
-├── toggle_controller.vhd
-├── mips32_simple.vhd
-├── misr.vhd
-├── test_controller.vhd
-├── lbist_top.vhd
+├── src/
+│   ├── lbist_top.vhd
+│   ├── lfsr.vhd
+│   ├── mips32_simple.vhd
+│   ├── misr.vhd
+│   ├── test_controller.vhd
+│   └── toggle_controller.vhd
+│
+├── README.md
+├── project_report.pdf
 ├── simulations/
-├── waveforms/
-└── README.md
+└── waveforms/
 
-yaml
-Copy code
-
----
 
 ## 📈 Key Takeaways
 
